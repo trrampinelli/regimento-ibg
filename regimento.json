@@ -1,0 +1,1017 @@
+{
+  "meta": {
+    "title": "Regimento Interno",
+    "church": "Igreja Bíblica em Guarapari",
+    "version": "1.0",
+    "updated": "07.07.2026"
+  },
+  "chapters": [
+    {
+      "title": "CAPÍTULO I – DOS MEMBROS",
+      "items": [
+        {
+          "type": "section",
+          "text": "Da Admissão"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.1",
+          "text": "São considerados membros da Igreja aqueles que, tendo professado\npublicamente sua fé em Jesus Cristo como único e suficiente Salvador, forem\nadmitidos conforme este Regimento e o Estatuto Social."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.2",
+          "text": "A admissão de membros poderá ocorrer por:\nI – batismo;\nII – transferência de outra igreja cristã;\nIII – aclamação ou reconciliação, quando aprovada pelos pastores e presbíteros."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.3",
+          "text": "Para admissão, o candidato deverá:\nI – demonstrar testemunho compatível com a fé cristã;\nII – concordar com a declaração de fé da Igreja;\nIII – participar do processo de integração estabelecido pela Igreja;\nIV – ser aprovado pelos pastores e presbíteros.\n\nDos Direitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.4",
+          "text": "São direitos dos membros em plena comunhão:\nI – participar dos cultos e atividades;\nII – receber assistência pastoral;\nIII – participar da Santa Ceia;\nIV – votar e ser votado, quando atendidos os requisitos estatutários;\nV – participar dos ministérios, conforme seus dons e aptidões;\nVI – apresentar sugestões e solicitações à liderança."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.5",
+          "text": "Nenhum membro será privado de seus direitos sem a observância do devido\nprocesso disciplinar previsto neste Regimento.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.6",
+          "text": "Constituem deveres dos membros:\nI – viver de acordo com os princípios bíblicos;\nII – preservar o bom testemunho cristão;\nIII – participar regularmente dos cultos e atividades da Igreja;\nIV – contribuir voluntariamente com dízimos e ofertas;\nV – respeitar e cooperar com a liderança;\nVI – zelar pelo patrimônio da Igreja;\nVII – promover a unidade da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.7",
+          "text": "Espera-se que cada membro utilize seus dons espirituais para servir à Igreja e\ncontribuir para sua edificação.\n\nDa Participação Ministerial"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.7",
+          "text": "O exercício de qualquer função ministerial dependerá da aprovação dos\npastores e presbíteros da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.9",
+          "text": "A escolha para funções ministeriais considerará:\nI – testemunho cristão;\nII – maturidade espiritual;\n\nIII – compromisso com a Igreja;\nIV – capacidade para exercer a função.\n\nDa Transferência"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.10",
+          "text": "O membro poderá solicitar carta de transferência para outra igreja cristã,\nobservadas as normas da igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.11",
+          "text": "A Igreja poderá receber membros provenientes de outras igrejas mediante\navaliação pastoral e documentação, quando necessária.\n\nDo Afastamento"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.12",
+          "text": "O membro poderá solicitar afastamento temporário por motivos pessoais,\nfamiliares, profissionais ou de saúde, permanecendo sob acompanhamento pastoral.\n\nDo Desligamento"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.13",
+          "text": "O desligamento do rol de membros poderá ocorrer por:\nI – solicitação do próprio membro;\nII – transferência;\nIII – falecimento;\nIV – abandono prolongado da comunhão;\nV – aplicação de disciplina definitiva.\n\nDa Restauração"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.14",
+          "text": "Todo membro afastado por disciplina poderá ser restaurado, desde que\ndemonstre arrependimento, disposição para mudança e seja acompanhado pelos\npastores e presbíteros.\n\nDas Disposições Gerais"
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.15",
+          "text": "Todos os membros são igualmente importantes diante de Deus, devendo ser\ntratados com respeito, amor cristão e imparcialidade, independentemente da função\nque exerçam."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.16",
+          "text": "Nenhum membro poderá utilizar o nome, a identidade visual, os bens ou os\nrecursos da Igreja para fins particulares sem autorização dos pastores e presbíteros."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.17",
+          "text": "É dever de cada membro preservar a unidade da Igreja, evitando contendas,\ndivisões, fofocas e atitudes que comprometam o testemunho cristão."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.18",
+          "text": "Os membros deverão observar este Regimento, o Estatuto Social e as decisões\nregularmente aprovadas pelos órgãos competentes da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.19",
+          "text": "Os casos omissos relacionados aos membros serão analisados pelos pastores\ne presbíteros da Igreja, observando as Escrituras Sagradas, o Estatuto Social e este\nRegimento."
+        },
+        {
+          "type": "article",
+          "number": "Art. 1.20",
+          "text": "O objetivo maior da membresia é promover comunhão, crescimento espiritual,\nserviço cristão e o cumprimento da missão da Igreja."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 2 – DO PASTOR-PRESIDENTE",
+      "items": [
+        {
+          "type": "section",
+          "text": "Dos Requisitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.1",
+          "text": "O Pastor-Presidente deverá possuir vida cristã exemplar, bom testemunho,\ncapacidade de liderança, maturidade espiritual e atender aos requisitos bíblicos para\no ministério pastoral."
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.2",
+          "text": "Deverá estar comprometido com a doutrina, a missão e os princípios da Igreja.\n\nDas Competências"
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.3",
+          "text": "Compete ao Pastor-Presidente:\nI – dirigir espiritualmente a Igreja;\nII – presidir as Assembleias e reuniões da igreja, salvo impedimento;\nIII – supervisionar os ministérios;\nIV – representar a Igreja perante terceiros, conforme o Estatuto;\nV – zelar pela unidade doutrinária e espiritual da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.4",
+          "text": "O Pastor-Presidente poderá delegar atribuições sem prejuízo de sua\nresponsabilidade pastoral.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.5",
+          "text": "São deveres do Pastor-Presidente:\nI – ensinar fielmente as Escrituras;\nII – exercer cuidado pastoral;\nIII – incentivar o discipulado e a evangelização;\nIV – agir com ética, transparência e humildade."
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.6",
+          "text": "O Pastor-Presidente deverá prestar contas de sua atuação aos órgãos\nprevistos no Estatuto."
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.7",
+          "text": "O cargo deverá ser exercido com espírito de serviço, vedado qualquer\nfavorecimento pessoal."
+        },
+        {
+          "type": "article",
+          "number": "Art. 2.8",
+          "text": "Em seus impedimentos, será substituído na forma prevista pelo Estatuto ou\npor designação do Conselho Geral."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 3 – DOS PASTORES AUXILIARES",
+      "items": [
+        {
+          "type": "section",
+          "text": "Dos Requisitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.1",
+          "text": "Os Pastores Auxiliares deverão atender aos mesmos requisitos espirituais\nexigidos para o ministério pastoral."
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.2",
+          "text": "Sua atuação estará subordinada à visão ministerial da Igreja e à coordenação\ndo Pastor-Presidente.\n\nDas Competências"
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.3",
+          "text": "Compete aos Pastores Auxiliares:\nI – auxiliar no cuidado pastoral;\n\nII – pregar e ensinar;\nIII – acompanhar ministérios e pequenos grupos;\nIV – realizar visitas e aconselhamento pastoral;\nV – exercer outras funções delegadas.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.4",
+          "text": "Os Pastores Auxiliares deverão atuar em unidade com o pastor presidente."
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.5",
+          "text": "Não poderão assumir compromissos institucionais em nome da Igreja sem\nautorização quando exigida."
+        },
+        {
+          "type": "article",
+          "number": "Art. 3.6",
+          "text": "Sua permanência na função dependerá da confiança do pastor presidente, da\nfidelidade doutrinária e do bom testemunho."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 4 – DOS PRESBÍTEROS",
+      "items": [
+        {
+          "type": "section",
+          "text": "Dos Requisitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.1",
+          "text": "Os Presbíteros deverão atender aos requisitos bíblicos para o presbiterato,\ndemonstrando maturidade espiritual e vida cristã exemplar.\n\nDas Competências"
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.2",
+          "text": "Compete aos Presbíteros:\nI – cooperar com o Pastor-Presidente;\nII – auxiliar no ensino da Palavra;\nIII – exercer cuidado espiritual sobre os membros;\nIV – participar das decisões dos pastores;\nV – zelar pela unidade da Igreja.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.3",
+          "text": "Os Presbíteros deverão agir com prudência, equilíbrio e espírito conciliador."
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.4",
+          "text": "Não poderão utilizar sua função para obtenção de vantagens pessoais ou\ninfluência indevida."
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.5",
+          "text": "Deverão guardar sigilo sobre assuntos pastorais e administrativos de caráter\nreservado."
+        },
+        {
+          "type": "article",
+          "number": "Art. 4.6",
+          "text": "O exercício da função poderá ser interrompido por renúncia, impedimento,\ndisciplina ou decisão da Igreja, conforme o Estatuto."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 5 – DOS DIÁCONOS",
+      "items": [
+        {
+          "type": "section",
+          "text": "Dos Requisitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.1",
+          "text": "Os Diáconos deverão atender aos requisitos bíblicos para o diaconato, sendo\nreconhecidos pelo bom testemunho, espírito de serviço e compromisso com a Igreja.\n\nDas Competências"
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.2",
+          "text": "Compete aos Diáconos:\nI – auxiliar na organização dos cultos;\nII – colaborar na distribuição da Santa Ceia;\nIII – cuidar da ordem e do patrimônio;\nIV – apoiar ações sociais e assistenciais;\nV – exercer outras funções compatíveis com o diaconato.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.3",
+          "text": "Os Diáconos deverão servir com dedicação, humildade e zelo."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.4",
+          "text": "A função diaconal possui caráter ministerial e deverá ser exercida em\ncooperação com toda a liderança."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.5",
+          "text": "O afastamento da função ocorrerá conforme o Estatuto, este Regimento ou\npor solicitação do próprio diácono.\n\nDa Escolha e do Exercício do Diaconato"
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.6",
+          "text": "Os diáconos serão escolhidos pela Assembleia Geral de Membros, mediante\nvotação, realizada conjuntamente com a eleição da Diretoria da Igreja, a cada 4\n(quatro) anos."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.7",
+          "text": "Poderão ser apresentados como candidatos ao diaconato os membros que\npreencham os requisitos bíblicos estabelecidos nas Escrituras, especialmente quanto\nao testemunho cristão, vida espiritual, conduta moral, compromisso com a Igreja e\nespírito de serviço."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.8",
+          "text": "Os diáconos que estiverem em exercício não serão automaticamente\nreconduzidos ao cargo, devendo, a cada novo período eleitoral, passar novamente\npela avaliação dos pastores e presbíteros da Igreja quanto ao atendimento dos\nrequisitos bíblicos e ministeriais para o exercício da função."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.9",
+          "text": "Após a avaliação prevista no artigo anterior, os diáconos considerados aptos\npoderão ser novamente submetidos à apreciação e votação da Assembleia Geral, em\nigualdade de condições com os novos candidatos."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.10",
+          "text": "O processo de renovação do diaconato buscará preservar a continuidade do\nministério, sem impedir o surgimento de novos servos vocacionados, promovendo\nequilíbrio entre experiência, maturidade espiritual e oportunidade para novos irmãos\nservirem à Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.11",
+          "text": "O mandato dos diáconos será de 4 (quatro) anos, permitida a recondução por\nsucessivos mandatos, desde que observados os critérios estabelecidos neste\nRegimento e aprovada sua eleição pela Assembleia Geral."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.12",
+          "text": "Ocorrendo vacância durante o mandato por renúncia, falecimento,\ndesligamento ou impedimento definitivo, os pastores e presbíteros poderão indicar\nsubstituto para completar o período restante ou, se entender conveniente, convocar a\nAssembleia Geral para nova eleição."
+        },
+        {
+          "type": "article",
+          "number": "Art. 5.13",
+          "text": "A posse dos diáconos eleitos ocorrerá em culto ou reunião especialmente\ndesignada para esse fim, mediante oração de consagração e compromisso público de\n\nexercer o ministério com fidelidade às Escrituras, ao Estatuto Social e ao presente\nRegimento."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 6 – DOS LÍDERES DE MINISTÉRIO",
+      "items": [
+        {
+          "type": "section",
+          "text": "Da Nomeação"
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.1",
+          "text": "Os Líderes de Ministério serão nomeados pelos pastores e presbíteros da\nIgreja, considerando testemunho cristão, maturidade espiritual, capacidade de\nliderança e compromisso com a visão ministerial.\n\nDas Competências"
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.2",
+          "text": "Compete aos Líderes de Ministério:\nI – coordenar as atividades do respectivo ministério;\nII – acompanhar e desenvolver seus voluntários;\nIII – organizar escalas e planejamento;\nIV – administrar os recursos colocados à disposição do ministério;\nV – incentivar a comunhão e o crescimento espiritual da equipe.\n\nDos Deveres"
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.3",
+          "text": "Os Líderes de Ministério deverão atuar em submissão à liderança da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.4",
+          "text": "Nenhum ministério poderá estabelecer regras ou práticas contrárias às\ndecisões da liderança ou à doutrina da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.5",
+          "text": "O líder deverá promover ambiente de respeito, cooperação, serviço e unidade\nentre todos os integrantes do ministério."
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.6",
+          "text": "Os Líderes de Ministério prestarão contas periodicamente das atividades\ndesenvolvidas e da utilização dos recursos sob sua responsabilidade."
+        },
+        {
+          "type": "article",
+          "number": "Art. 6.7",
+          "text": "A nomeação e a permanência na liderança ministerial dependerão da\nconfiança dos pastores e presbíteros, da fidelidade doutrinária, da vida cristã\nexemplar e do compromisso com a missão da Igreja."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 7 – DO PROCESSO DISCIPLINAR ECLESIÁSTICO",
+      "items": [
+        {
+          "type": "section",
+          "text": "Dos Princípios Gerais"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.1",
+          "text": "A disciplina eclesiástica tem por finalidade preservar a santidade da Igreja,\npromover a restauração espiritual do membro e proteger a comunhão do Corpo de\nCristo."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.2",
+          "text": "Toda disciplina será aplicada observando os princípios do amor cristão, da\nverdade, da justiça, da imparcialidade, da discrição e da misericórdia."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.3",
+          "text": "Nenhum membro será submetido à disciplina por motivo de opinião pessoal,\npreferência ministerial, divergência administrativa ou qualquer outra razão que não\n\nconfigure desobediência aos princípios bíblicos ou ao Estatuto e ao presente\nRegimento."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.4",
+          "text": "Sempre que possível, buscar-se-á a reconciliação antes da adoção de medidas\ndisciplinares.\n\nDas Situações Passíveis de Disciplina"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.5",
+          "text": "Poderão ensejar processo disciplinar, entre outras situações:\nI – conduta incompatível com os princípios bíblicos;\nII – prática pública de pecado sem demonstração de arrependimento;\nIII – promoção de divisões, facções ou escândalos;\nIV – disseminação de falsas doutrinas;\nV – desrespeito deliberado à liderança da Igreja;\nVI – utilização do nome da Igreja para fins particulares sem autorização;\nVII – conduta moral que comprometa o testemunho cristão;\nVIII – apropriação indevida de bens ou recursos da Igreja;\nIX – comportamento incompatível com funções ministeriais;\nX – qualquer ato que cause grave prejuízo espiritual, moral, patrimonial ou\ninstitucional à Igreja.\n\nDas Etapas do Processo Disciplinar\n\nEtapa 1 – Aconselhamento Pastoral"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.6.1",
+          "text": "Sempre que possível, o processo disciplinar iniciará com aconselhamento\npastoral reservado."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.6.2",
+          "text": "O objetivo dessa etapa será orientar, exortar e oferecer oportunidade para\narrependimento espontâneo.\n\nEtapa 2 – Advertência"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.7.1",
+          "text": "Persistindo a situação, poderá ser aplicada advertência verbal."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.7.2",
+          "text": "Caso necessário, poderá ser emitida advertência escrita, registrada pelos\npastores.\n\nEtapa 3 – Comissão de Acompanhamento"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.8.1",
+          "text": "Permanecendo os fatos, os pastores poderão constituir comissão composta\npor, no mínimo, três líderes para acompanhar o caso."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.8.2",
+          "text": "A comissão ouvirá o membro, analisará os fatos e apresentará parecer\nfundamentado.\n\nEtapa 4 – Medidas Disciplinares"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.9.1",
+          "text": "Conforme a gravidade da situação poderão ser aplicadas:\nI – orientação pastoral;\nII – advertência;\nIII – suspensão temporária do exercício ministerial;\n\nIV – afastamento de cargos ou funções;\nV – restrição temporária de atividades ministeriais;\nVI – desligamento do rol de membros, quando não houver arrependimento ou quando\na gravidade justificar.\n\nDas Garantias do Membro"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.10",
+          "text": "Nenhuma medida disciplinar será aplicada sem que o membro tenha\noportunidade de apresentar sua versão dos fatos, salvo quando isso for\ncomprovadamente impossível."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.11",
+          "text": "O membro poderá apresentar documentos, testemunhas e demais elementos\nque considerar pertinentes."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.12",
+          "text": "Sempre que possível, as reuniões disciplinares ocorrerão em ambiente\nreservado, preservando a dignidade das pessoas envolvidas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.13",
+          "text": "As informações obtidas durante o processo deverão ser tratadas com\nconfidencialidade.\n\nDas Medidas Cautelares"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.14",
+          "text": "Havendo risco para a Igreja ou para terceiros, a liderança poderá determinar,\npreventivamente:\nI – afastamento temporário de funções;\nII – suspensão de atividades ministeriais;\nIII – restrição de acesso a determinadas áreas ou atividades da Igreja;\nIV – outras medidas estritamente necessárias.\nParágrafo único. As medidas cautelares não constituem punição definitiva.\n\nDa Restauração"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.15",
+          "text": "Demonstrado\narrependimento\nsincero,\na\nacompanhamento pastoral visando à restauração espiritual.\n\nliderança\n\npromoverá"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.16",
+          "text": "A reintegração às atividades ministeriais ocorrerá de forma gradual,\nconsiderando:\nI – maturidade espiritual;\nII – tempo de acompanhamento;\nIII – testemunho cristão;\nIV – parecer dos pastores e presbíteros."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.17",
+          "text": "A restauração do membro será motivo de alegria para toda a Igreja,\nobservando-se prudência e sabedoria na comunicação.\n\nDo Desligamento"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.18",
+          "text": "O desligamento do rol de membros será medida excepcional."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.19",
+          "text": "Poderá ocorrer por:\nI – solicitação do próprio membro;\nII – transferência;\n\nIII – falecimento;\nIV – abandono prolongado da comunhão;\nV – aplicação de disciplina definitiva.\n\nDa Revisão"
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.20",
+          "text": "O membro poderá solicitar reconsideração da decisão disciplinar mediante\nrequerimento fundamentado aos pastores."
+        },
+        {
+          "type": "article",
+          "number": "Art. 7.21",
+          "text": "A liderança analisará o pedido e poderá manter, modificar ou revogar a\ndecisão anteriormente tomada.\n\nDas"
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 8 – DA EBD",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 8.1",
+          "text": "A Escola Bíblica Dominical constitui o principal ministério de ensino da Igreja,\ndestinado ao crescimento espiritual e ao conhecimento das Escrituras."
+        },
+        {
+          "type": "article",
+          "number": "Art. 8.2",
+          "text": "A participação dos membros será incentivada como parte da vida cristã e do\nprocesso de discipulado."
+        },
+        {
+          "type": "article",
+          "number": "Art. 8.3",
+          "text": "Os professores deverão possuir bom testemunho cristão, fidelidade\ndoutrinária e aprovação dos pastores e presbíteros.."
+        },
+        {
+          "type": "article",
+          "number": "Art. 8.4",
+          "text": "O conteúdo ministrado deverá estar em conformidade com a declaração de fé\ne a orientação doutrinária da Igreja."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 9 – DOS CULTOS",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 9.1",
+          "text": "Os cultos destinam-se exclusivamente à adoração a Deus, à edificação da\nIgreja e à proclamação do Evangelho."
+        },
+        {
+          "type": "article",
+          "number": "Art. 9.2",
+          "text": "Todos os participantes deverão agir com reverência, respeito e ordem durante\nas reuniões."
+        },
+        {
+          "type": "article",
+          "number": "Art. 9.3",
+          "text": "A programação dos cultos será definida pelo Conselho Geral da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 9.4",
+          "text": "A participação no púlpito dependerá de autorização da liderança competente."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 10 – DO ENSINO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 10.1",
+          "text": "Todo ensino ministrado na Igreja deverá estar fundamentado nas Escrituras\nSagradas e em sua declaração de fé."
+        },
+        {
+          "type": "article",
+          "number": "Art. 10.2",
+          "text": "Nenhum membro poderá promover doutrinas ou práticas contrárias aos\nensinamentos oficialmente adotados pela Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 10.3",
+          "text": "A liderança zelará pela qualidade, fidelidade bíblica e unidade do ensino em\ntodos os ministérios."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 11 – DO MINISTÉRIO DE LOUVOR",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 11.1",
+          "text": "O Ministério de Louvor tem por finalidade conduzir a Igreja à adoração a Deus\npor meio da música."
+        },
+        {
+          "type": "article",
+          "number": "Art. 11.2",
+          "text": "Seus integrantes deverão manter vida cristã compatível com o serviço\nministerial."
+        },
+        {
+          "type": "article",
+          "number": "Art. 11.3",
+          "text": "As escalas, ensaios e repertórios serão organizados pela liderança do\nministério, com aprovação pastoral quando necessária."
+        },
+        {
+          "type": "article",
+          "number": "Art. 11.4",
+          "text": "O Ministério de Louvor exercerá função ministerial, não artística, devendo\natuar com humildade, unidade e espírito de serviço."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 12 – DO BATISMO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 12.1",
+          "text": "O batismo será ministrado às pessoas que tenham professado publicamente\nsua fé em Jesus Cristo e atendam aos critérios estabelecidos pela Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 12.2",
+          "text": "Antes do batismo, o candidato deverá participar de orientação doutrinária ou\nclasse preparatória."
+        },
+        {
+          "type": "article",
+          "number": "Art. 12.3",
+          "text": "O batismo representa testemunho público da fé cristã e não substitui a\nnecessidade de uma vida de comunhão com Deus e com a Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 12.4",
+          "text": "A idade mínima para batismo será de 14 anos de idade."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 13 – DA SANTA CEIA",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 13.1",
+          "text": "A Santa Ceia será celebrada regularmente conforme calendário definido pela\nIgreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 13.2",
+          "text": "Poderão participar da Ceia os cristãos que tenham professado sua fé em\nCristo, sejam batizados e estejam em comunhão com Deus e com sua igreja local."
+        },
+        {
+          "type": "article",
+          "number": "Art. 13.3",
+          "text": "Recomenda-se que cada participante examine sua própria vida antes de\nparticipar da Ceia."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 14 – DA APRESENTAÇÃO DE CRIANÇAS",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 14.1",
+          "text": "A Igreja realizará cerimônia de apresentação de crianças como ato de\ngratidão a Deus e compromisso da família com a educação cristã dos filhos."
+        },
+        {
+          "type": "article",
+          "number": "Art. 14.2",
+          "text": "A apresentação não substitui o batismo bíblico nem implica salvação da\ncriança."
+        },
+        {
+          "type": "article",
+          "number": "Art. 14.3",
+          "text": "A cerimônia será conduzida pela liderança pastoral em data previamente\ndefinida."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 15 – DO CASAMENTO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 15.1",
+          "text": "A Igreja reconhece o casamento como instituição estabelecida por Deus entre\num homem e uma mulher, fundamentado no amor, fidelidade, respeito e compromisso\nmútuo."
+        },
+        {
+          "type": "article",
+          "number": "Art. 15.2",
+          "text": "A celebração religiosa dependerá do cumprimento das exigências legais e\ndas orientações pastorais da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 15.3",
+          "text": "Recomenda-se que os noivos participem de aconselhamento ou curso\npreparatório para o casamento."
+        },
+        {
+          "type": "article",
+          "number": "Art. 15.4",
+          "text": "O casamento realizado nas dependências da Igreja observará as normas\nestabelecidas pela administração e pela liderança pastoral."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 16 – DO DIVÓRCIO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 16.1",
+          "text": "A Igreja reafirma o princípio bíblico da permanência do casamento,\nincentivando sempre a reconciliação, o perdão e a restauração da família."
+        },
+        {
+          "type": "article",
+          "number": "Art. 16.2",
+          "text": "Os casos de separação e divórcio serão tratados individualmente, com\nacolhimento, aconselhamento pastoral e observância das Escrituras Sagradas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 16.3",
+          "text": "Nenhum caso será analisado de forma precipitada, cabendo aos pastores\nouvir as partes envolvidas, sempre que possível, antes de qualquer orientação ou\ndecisão."
+        },
+        {
+          "type": "article",
+          "number": "Art. 16.4",
+          "text": "Situações relacionadas ao exercício de funções ministeriais por pessoas\ndivorciadas serão avaliadas pelos pastores da Igreja, considerando os princípios\nbíblicos, o testemunho cristão, a vida atual da pessoa e as normas deste Regimento."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 17 – DO USO DO PÚLPITO E DOS PREGADORES CONVIDADOS",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 17.1",
+          "text": "O púlpito da Igreja destina-se exclusivamente à exposição da Palavra de Deus,\nà edificação da Igreja e às atividades autorizadas pelos pastores.."
+        },
+        {
+          "type": "article",
+          "number": "Art. 17.2",
+          "text": "A participação de pregadores, palestrantes, cantores ou demais convidados\ndependerá da autorização do Pastor-Presidente ou da liderança por ele designada."
+        },
+        {
+          "type": "article",
+          "number": "Art. 17.3",
+          "text": "Os convidados deverão respeitar a doutrina, os princípios e a liturgia da Igreja\ndurante sua participação."
+        },
+        {
+          "type": "article",
+          "number": "Art. 17.4",
+          "text": "É vedada a utilização do púlpito para promoção pessoal, propaganda\npolítico-partidária, arrecadações não autorizadas ou divulgação de conteúdos\nincompatíveis com a fé cristã."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 18 – DA ADMINISTRAÇÃO E DO PATRIMÔNIO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 18.1",
+          "text": "Todos os bens móveis, imóveis, equipamentos e demais patrimônios\npertencem exclusivamente à Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 18.2",
+          "text": "Compete à administração zelar pela conservação, organização e utilização\nadequada do patrimônio."
+        },
+        {
+          "type": "article",
+          "number": "Art. 18.3",
+          "text": "Nenhum bem poderá ser retirado das dependências da Igreja sem\nautorização dos pastores ou da administração competente."
+        },
+        {
+          "type": "article",
+          "number": "Art. 18.4",
+          "text": "Os responsáveis por equipamentos ou materiais deverão comunicar\nimediatamente qualquer dano, perda ou irregularidade."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 19 – DAS FINANÇAS",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 19.1",
+          "text": "Os recursos financeiros da Igreja serão constituídos por dízimos, ofertas,\ndoações e demais receitas legalmente permitidas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 19.2",
+          "text": "Toda movimentação financeira deverá observar os princípios da legalidade,\ntransparência, responsabilidade e boa administração."
+        },
+        {
+          "type": "article",
+          "number": "Art. 19.3",
+          "text": "As receitas da Igreja serão aplicadas exclusivamente em suas finalidades\ninstitucionais."
+        },
+        {
+          "type": "article",
+          "number": "Art. 19.4",
+          "text": "A prestação de contas será realizada periodicamente na forma prevista pelo\nEstatuto e pelas decisões da Igreja."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 20 – DO USO DAS DEPENDÊNCIAS DA IGREJA",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 20.1",
+          "text": "As dependências da Igreja destinam-se prioritariamente às atividades\nreligiosas, educacionais, sociais e administrativas por ela promovidas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 20.2",
+          "text": "A utilização dos espaços por terceiros dependerá de autorização do\nConselho Geral da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 20.3",
+          "text": "Todos os usuários deverão zelar pela limpeza, conservação, segurança e\norganização das instalações."
+        },
+        {
+          "type": "article",
+          "number": "Art. 20.4",
+          "text": "Eventuais danos causados por uso inadequado poderão ser objeto de\nresponsabilização."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 21 – DA IDENTIDADE VISUAL E DA COMUNICAÇÃO",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 21.1",
+          "text": "A identidade visual, o nome, a logomarca e os canais oficiais de comunicação\npertencem exclusivamente à Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 21.2",
+          "text": "Nenhum membro poderá utilizar a identidade da Igreja para fins particulares\nsem autorização."
+        },
+        {
+          "type": "article",
+          "number": "Art. 21.3",
+          "text": "Toda comunicação oficial deverá observar os princípios da verdade, respeito,\nética e unidade institucional."
+        },
+        {
+          "type": "article",
+          "number": "Art. 21.4",
+          "text": "As redes sociais oficiais serão administradas por pessoas designadas pela\nliderança."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 22– DOS VOLUNTÁRIOS",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 22.1",
+          "text": "Todo serviço prestado à Igreja terá caráter voluntário, não gerando vínculo\nempregatício."
+        },
+        {
+          "type": "article",
+          "number": "Art. 22.2",
+          "text": "Espera-se dos voluntários\ncooperação e testemunho cristão.\n\ncompromisso,\n\npontualidade,\n\nespírito\n\nde"
+        },
+        {
+          "type": "article",
+          "number": "Art. 22.3",
+          "text": "Os voluntários deverão respeitar as orientações da liderança e cumprir as\nescalas assumidas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 22.4",
+          "text": "O ingresso, permanência ou desligamento de voluntários será definido pela\nliderança conforme as necessidades ministeriais."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 23 – DOS CONFLITOS DE INTERESSE",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 23.1",
+          "text": "Os ocupantes de cargos ministeriais ou administrativos deverão agir sempre\nem benefício da Igreja, evitando situações que possam comprometer sua\nimparcialidade."
+        },
+        {
+          "type": "article",
+          "number": "Art. 23.2",
+          "text": "Nenhum líder participará de decisões que envolvam interesse pessoal,\nfamiliar ou financeiro direto, quando isso puder comprometer a lisura do processo."
+        },
+        {
+          "type": "article",
+          "number": "Art. 23.4",
+          "text": "Toda situação de potencial conflito deverá ser comunicada previamente aos\npastores e presbíteros para avaliação."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 24 – DO CÓDIGO DE ÉTICA MINISTERIAL",
+      "items": [
+        {
+          "type": "article",
+          "number": "Art. 24.1",
+          "text": "Todos os líderes e cooperadores deverão conduzir sua vida pública e privada\nde forma compatível com os princípios das Escrituras Sagradas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 24.2",
+          "text": "Espera-se de todo líder postura de humildade, integridade, respeito,\ndiscrição, responsabilidade e espírito de serviço."
+        },
+        {
+          "type": "article",
+          "number": "Art. 24.3",
+          "text": "É vedado utilizar cargo, função ou influência ministerial para obtenção de\nvantagens pessoais, financeiras, políticas ou comerciais."
+        },
+        {
+          "type": "article",
+          "number": "Art. 24.4",
+          "text": "Informações confidenciais obtidas em razão da função deverão ser tratadas\ncom absoluto zelo e discrição, salvo quando houver obrigação legal ou necessidade\nde proteção das pessoas envolvidas."
+        },
+        {
+          "type": "article",
+          "number": "Art. 24.5",
+          "text": "Divergências entre líderes deverão ser tratadas com respeito,\npreferencialmente em âmbito reservado, buscando sempre a reconciliação e a\nunidade da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 24.6",
+          "text": "O descumprimento das normas deste Código sujeitará o responsável às\nmedidas pastorais, administrativas ou disciplinares previstas neste Regimento e no\nEstatuto Social."
+        }
+      ]
+    },
+    {
+      "title": "CAPÍTULO 25 – DO CONSELHO GERAL DA IGREJA",
+      "items": [
+        {
+          "type": "section",
+          "text": "Da Composição"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.1",
+          "text": "O Conselho Geral constitui o órgão de apoio, aconselhamento e deliberação\nda Igreja, observadas as competências estabelecidas no Estatuto Social."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.2",
+          "text": "A composição do Conselho Geral observará o disposto no Estatuto Social,\nsendo integrado pelos membros natos nele previstos e pelos representantes eleitos da\nIgreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.3",
+          "text": "Os representantes dos membros da Igreja no Conselho Geral serão eleitos\npela Assembleia Geral de Membros, juntamente com a eleição da Diretoria, para\nmandato de 4 (quatro) anos."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.4",
+          "text": "O número de representantes eleitos da Igreja será de, no mínimo, 3 (três)\nmembros, não havendo limite máximo de representantes, cabendo ao Conselho Geral\ndefinir a quantidade de vagas para cada mandato, conforme a necessidade e o\ninteresse da Igreja.\n\nDos Requisitos"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.5",
+          "text": "Poderão ser eleitos representantes para o Conselho Geral os membros em\nplena comunhão com a Igreja que demonstrem bom testemunho cristão, maturidade\nespiritual, compromisso com a Igreja e capacidade de contribuir para as decisões do\nConselho."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.6",
+          "text": "Os representantes exercerão sua função de forma voluntária, buscando\nsempre a unidade da Igreja, a edificação do Corpo de Cristo e o cumprimento da\nmissão da Igreja.\n\nDo Mandato"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.7",
+          "text": "O mandato dos representantes eleitos será de 4 (quatro) anos, permitida a\nreeleição, desde que aprovada pela Assembleia Geral."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.8",
+          "text": "O encerramento do mandato coincidirá com a posse dos novos\nrepresentantes eleitos.\n\nDa Vacância"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.9",
+          "text": "O membro eleito para o Conselho Geral poderá, a qualquer tempo, renunciar\nà função, mediante comunicação aos pastores da Igreja."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.10",
+          "text": "Ocorrendo vacância, caberá ao Pastor-Presidente, em conjunto com a\nDiretoria e os demais membros do Conselho Geral, avaliar a necessidade de\npreenchimento da vaga."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.11",
+          "text": "A liderança poderá:\nI – manter a vaga em aberto até a próxima eleição ordinária;\nII – convocar Assembleia Geral para eleição de novo representante, quando entender\nnecessário ao bom funcionamento do Conselho.\n\nDas Competências dos Representantes"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.12",
+          "text": "Compete aos representantes dos membros:\nI – participar das reuniões do Conselho Geral;\nII – colaborar nas deliberações, sempre observando as Escrituras Sagradas, o\nEstatuto Social e este Regimento;\nIII – representar os interesses da Igreja com espírito de serviço, unidade e\nresponsabilidade;\nIV – guardar sigilo sobre assuntos de caráter reservado discutidos pelo Conselho."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.13",
+          "text": "O exercício da função de conselheiro não confere privilégios pessoais,\ndevendo seus integrantes atuar com ética, imparcialidade e compromisso com os\ninteresses da Igreja.\n\nDas Disposições Gerais"
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.14",
+          "text": "A ausência reiterada e injustificada às reuniões do Conselho Geral poderá\nser avaliada pelos pastores e presbíteros, que poderá propor o desligamento do\nconselheiro, assegurado o direito de manifestação do interessado."
+        },
+        {
+          "type": "article",
+          "number": "Art. 25.15",
+          "text": "Os casos omissos relacionados ao funcionamento e à composição do\nConselho Geral serão resolvidos pelo próprio Conselho, em conjunto com a liderança\nda Igreja, observadas as disposições do Estatuto Social e deste Regimento."
+        }
+      ]
+    },
+    {
+      "title": "DISPOSIÇÕES FINAIS",
+      "items": [
+        {
+          "type": "section",
+          "text": "Os casos omissos neste Regimento serão resolvidos pelos pastores e presbíteros da"
+        },
+        {
+          "type": "section",
+          "text": "Igreja, observando as Escrituras Sagradas, o Estatuto Social e os princípios cristãos."
+        },
+        {
+          "type": "section",
+          "text": "Este Regimento poderá ser alterado mediante aprovação do Conselho Geral da Igreja"
+        },
+        {
+          "type": "section",
+          "text": "a qualquer tempo. Este Regimento Interno entra em vigor na data de sua aprovação"
+        },
+        {
+          "type": "section",
+          "text": "pelo Conselho Geral, revogando as disposições internas em contrário."
+        }
+      ]
+    }
+  ]
+}
