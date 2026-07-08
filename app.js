@@ -3,90 +3,28 @@ const DATA_FILE = "regimento.json";
 const STORAGE_KEY = "regimento_ibg_editor_cache";
 const isEditor = document.body.dataset.mode === "editor";
 let state = null, selectedChapter = 0, editingChapterIndex = null, editingItem = null, itemType = "article";
-
 const $ = id => document.getElementById(id);
-
-async function loadData(){
-  if(isEditor){
-    const cached = localStorage.getItem(STORAGE_KEY);
-    if(cached){ try{ state = JSON.parse(cached); return; }catch(e){} }
-  }
-  try{
-    const res = await fetch(DATA_FILE, {cache:"no-store"});
-    state = await res.json();
-  }catch(e){
-    state = {meta:{title:"Regimento Interno",church:"Igreja Bíblica em Guarapari",version:"1.0",updated:""},chapters:[]};
-    toast("Não foi possível carregar regimento.json.");
-  }
-}
-function saveLocal(){ if(isEditor && state) localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
-function esc(s){ return String(s ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"); }
-function slug(s){ return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
-function articleId(number, ci, ii){ return "art-" + slug(number || `item-${ci}-${ii}`); }
-
-function render(){
-  if(!state) return;
-  saveLocal();
-  const q = ($("searchInput")?.value || "").toLowerCase().trim();
-  const menu = $("chapterMenu"), content = $("content");
-  menu.innerHTML = "";
-  state.chapters.forEach((ch,i)=>{
-    const b = document.createElement("button");
-    b.className = "nav-btn" + (i === selectedChapter ? " active" : "");
-    b.textContent = ch.title;
-    b.onclick = () => { selectedChapter = i; closeSidebar(); render(); window.scrollTo({top:0,behavior:"smooth"}); };
-    menu.appendChild(b);
-  });
-  if(!state.chapters.length){ content.innerHTML = '<div class="notice-card empty">Nenhum capítulo cadastrado.</div>'; return; }
-  if(selectedChapter >= state.chapters.length) selectedChapter = state.chapters.length - 1;
-  const ch = state.chapters[selectedChapter];
-
-  let html = `
-    <section class="meta-card">
-      <div>
-        <h2>${esc(state.meta.title)}</h2>
-        <p>${esc(state.meta.church)}</p>
-        <p>Versão ${esc(state.meta.version)} · Atualização: ${esc(state.meta.updated)}</p>
-      </div>
-      ${isEditor ? '<div class="chapter-actions"><button onclick="openMetaModal()">Editar dados</button></div>' : ''}
-    </section>
-    <section class="chapter-card">
-      <h2>${esc(ch.title)}</h2>
-      ${isEditor ? `<div class="chapter-actions"><button onclick="openChapterModal(${selectedChapter})">Alterar nome</button><button class="danger" onclick="deleteChapter(${selectedChapter})">Excluir capítulo</button></div>` : ''}
-    </section>
-  `;
-
-  const items = (ch.items || []).filter(it => !q || ch.title.toLowerCase().includes(q) || (it.number || "").toLowerCase().includes(q) || (it.text || "").toLowerCase().includes(q));
-  if(!items.length) html += '<div class="notice-card empty">Nenhum resultado encontrado neste capítulo.</div>';
-  items.forEach(it=>{
-    const idx = ch.items.indexOf(it);
-    if(it.type === "section"){
-      html += `<div class="section-title">${esc(it.text)} ${isEditor ? `<span class="article-actions"><button class="light" onclick="openItemModal('section',${selectedChapter},${idx})">Editar</button><button class="danger" onclick="deleteItem(${selectedChapter},${idx})">Excluir</button></span>` : ""}</div>`;
-    } else {
-      const id = articleId(it.number, selectedChapter, idx);
-      html += `<article class="article-card" id="${id}"><h3><a class="article-number-link" href="#${id}">${esc(it.number)}</a></h3><p>${esc(it.text)}</p>
-      ${isEditor ? `<div class="article-actions"><button class="light" onclick="openItemModal('article',${selectedChapter},${idx})">Editar</button><button class="danger" onclick="deleteItem(${selectedChapter},${idx})">Excluir</button></div>` : `<div class="article-actions"><button class="light" onclick="copyLink('${id}')">Copiar link</button></div>`}
-      </article>`;
-    }
-  });
-  content.innerHTML = html;
-}
-function openSidebar(){ $("sidebar").classList.add("open"); $("sidebarBackdrop").classList.add("open"); document.body.classList.add("no-scroll"); }
-function closeSidebar(){ $("sidebar").classList.remove("open"); $("sidebarBackdrop").classList.remove("open"); document.body.classList.remove("no-scroll"); }
-function toast(msg){ const t=$("toast"); if(!t)return; t.textContent=msg; t.classList.add("show"); setTimeout(()=>t.classList.remove("show"),2600); }
-function copyLink(id){ const url = `${location.origin}${location.pathname}#${id}`; navigator.clipboard?.writeText(url); toast("Link copiado."); }
-function closeModals(){ document.querySelectorAll(".modal").forEach(m=>m.classList.remove("open")); editingChapterIndex=null; editingItem=null; }
-function openMetaModal(){ $("metaTitle").value=state.meta.title||""; $("metaChurch").value=state.meta.church||""; $("metaVersion").value=state.meta.version||""; $("metaUpdated").value=state.meta.updated||""; $("metaModal").classList.add("open"); }
-function saveMeta(){ state.meta={title:$("metaTitle").value.trim(), church:$("metaChurch").value.trim(), version:$("metaVersion").value.trim(), updated:$("metaUpdated").value.trim()}; closeModals(); render(); toast("Dados salvos."); }
-function openChapterModal(i=null){ editingChapterIndex=i; $("chapterModalTitle").textContent=i===null?"Novo capítulo":"Alterar capítulo"; $("chapterTitleInput").value=i===null?"":state.chapters[i].title; $("chapterModal").classList.add("open"); }
-function saveChapter(){ const title=$("chapterTitleInput").value.trim(); if(!title)return alert("Digite o nome do capítulo."); if(editingChapterIndex===null){state.chapters.push({title,items:[]});selectedChapter=state.chapters.length-1;} else state.chapters[editingChapterIndex].title=title; closeModals(); render(); toast("Capítulo salvo."); }
-function deleteChapter(i){ if(!confirm("Excluir este capítulo e todos os artigos?"))return; state.chapters.splice(i,1); selectedChapter=Math.max(0,i-1); render(); toast("Capítulo excluído."); }
-function fillSelect(sel){ $("itemChapterSelect").innerHTML = state.chapters.map((ch,i)=>`<option value="${i}">${esc(ch.title)}</option>`).join(""); $("itemChapterSelect").value = sel; }
-function openItemModal(type="article", ch=selectedChapter, idx=null){ if(!state.chapters.length)return alert("Crie um capítulo primeiro."); itemType=type; editingItem=idx===null?null:{ch,idx}; fillSelect(ch); const it=idx===null?{number:"",text:""}:state.chapters[ch].items[idx]; $("itemModalTitle").textContent = idx===null ? (type==="section"?"Novo subtítulo":"Novo artigo") : (type==="section"?"Editar subtítulo":"Editar artigo"); $("articleNumberWrapper").style.display=type==="section"?"none":"block"; $("itemNumberInput").value=it.number||""; $("itemTextInput").value=it.text||""; $("itemModal").classList.add("open"); }
-function saveItem(){ const ch=Number($("itemChapterSelect").value), number=$("itemNumberInput").value.trim(), text=$("itemTextInput").value.trim(); if(!text)return alert("Digite o texto."); if(itemType==="article"&&!number)return alert("Digite o número do artigo."); const item=itemType==="section"?{type:"section",text}:{type:"article",number,text}; if(editingItem){ state.chapters[editingItem.ch].items.splice(editingItem.idx,1); state.chapters[ch].items.push(item); } else state.chapters[ch].items.push(item); selectedChapter=ch; closeModals(); render(); toast("Item salvo."); }
-function deleteItem(ch,idx){ if(!confirm("Excluir este item?"))return; state.chapters[ch].items.splice(idx,1); render(); toast("Item excluído."); }
-function downloadJSON(){ const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="regimento.json"; a.click(); toast("regimento.json exportado."); }
-function importJSON(ev){ const file=ev.target.files[0]; if(!file)return; const r=new FileReader(); r.onload=e=>{ try{ const obj=JSON.parse(e.target.result); if(!Array.isArray(obj.chapters)) throw new Error(); state=obj; selectedChapter=0; saveLocal(); render(); toast("JSON importado."); }catch{ alert("Arquivo inválido."); } }; r.readAsText(file); }
-function clearLocal(){ if(confirm("Apagar alterações locais e recarregar do regimento.json?")){ localStorage.removeItem(STORAGE_KEY); location.reload(); } }
-
-document.addEventListener("DOMContentLoaded", async()=>{ await loadData(); render(); });
+async function loadData(){if(isEditor){const cached=localStorage.getItem(STORAGE_KEY);if(cached){try{state=JSON.parse(cached);return;}catch(e){}}}try{const res=await fetch(DATA_FILE,{cache:"no-store"});state=await res.json();}catch(e){state={meta:{title:"Regimento Interno",church:"Igreja Bíblica em Guarapari",version:"1.0",updated:""},chapters:[]};toast("Não foi possível carregar regimento.json.");}}
+function saveLocal(){if(isEditor&&state)localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}
+function esc(s){return String(s??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");}
+function slug(s){return String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");}
+function articleId(number,ci,ii){return "art-"+slug(number||`item-${ci}-${ii}`);}
+function render(){if(!state)return;saveLocal();const q=($("searchInput")?.value||"").toLowerCase().trim();const menu=$("chapterMenu"),content=$("content");menu.innerHTML="";state.chapters.forEach((ch,i)=>{const b=document.createElement("button");b.className="nav-btn"+(i===selectedChapter?" active":"");b.textContent=ch.title;b.onclick=()=>{selectedChapter=i;closeSidebar();render();window.scrollTo({top:0,behavior:"smooth"});};menu.appendChild(b);});if(!state.chapters.length){content.innerHTML='<div class="notice-card empty">Nenhum capítulo cadastrado.</div>';return;}if(selectedChapter>=state.chapters.length)selectedChapter=state.chapters.length-1;const ch=state.chapters[selectedChapter];let html=`<section class="meta-card"><div><h2>${esc(state.meta.title)}</h2><p>${esc(state.meta.church)}</p><p>Versão ${esc(state.meta.version)} · Atualização: ${esc(state.meta.updated)}</p></div>${isEditor?'<div class="chapter-actions"><button onclick="openMetaModal()">Editar dados</button></div>':""}</section><section class="chapter-card"><h2>${esc(ch.title)}</h2>${isEditor?`<div class="chapter-actions"><button onclick="openChapterModal(${selectedChapter})">Alterar nome</button><button class="danger" onclick="deleteChapter(${selectedChapter})">Excluir capítulo</button></div>`:""}</section>`;const items=(ch.items||[]).filter(it=>!q||ch.title.toLowerCase().includes(q)||(it.number||"").toLowerCase().includes(q)||(it.text||"").toLowerCase().includes(q));if(!items.length)html+='<div class="notice-card empty">Nenhum resultado encontrado neste capítulo.</div>';items.forEach(it=>{const idx=ch.items.indexOf(it);if(it.type==="section"){html+=`<div class="section-title">${esc(it.text)} ${isEditor?`<span class="article-actions"><button class="light" onclick="openItemModal('section',${selectedChapter},${idx})">Editar</button><button class="danger" onclick="deleteItem(${selectedChapter},${idx})">Excluir</button></span>`:""}</div>`;}else{const id=articleId(it.number,selectedChapter,idx);html+=`<article class="article-card" id="${id}"><h3><a class="article-number-link" href="#${id}">${esc(it.number)}</a></h3><p>${esc(it.text)}</p>${isEditor?`<div class="article-actions"><button class="light" onclick="openItemModal('article',${selectedChapter},${idx})">Editar</button><button class="danger" onclick="deleteItem(${selectedChapter},${idx})">Excluir</button></div>`:`<div class="article-actions"><button class="light" onclick="copyLink('${id}')">Copiar link</button></div>`}</article>`;}});content.innerHTML=html;}
+function openSidebar(){$("sidebar").classList.add("open");$("sidebarBackdrop").classList.add("open");document.body.classList.add("no-scroll");}
+function closeSidebar(){$("sidebar").classList.remove("open");$("sidebarBackdrop").classList.remove("open");document.body.classList.remove("no-scroll");}
+function toast(msg){const t=$("toast");if(!t)return;t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2600);}
+function copyLink(id){const url=`${location.origin}${location.pathname}#${id}`;navigator.clipboard?.writeText(url);toast("Link copiado.");}
+function closeModals(){document.querySelectorAll(".modal").forEach(m=>m.classList.remove("open"));editingChapterIndex=null;editingItem=null;}
+function openMetaModal(){$("metaTitle").value=state.meta.title||"";$("metaChurch").value=state.meta.church||"";$("metaVersion").value=state.meta.version||"";$("metaUpdated").value=state.meta.updated||"";$("metaModal").classList.add("open");}
+function saveMeta(){state.meta={title:$("metaTitle").value.trim(),church:$("metaChurch").value.trim(),version:$("metaVersion").value.trim(),updated:$("metaUpdated").value.trim()};closeModals();render();toast("Dados salvos.");}
+function openChapterModal(i=null){editingChapterIndex=i;$("chapterModalTitle").textContent=i===null?"Novo capítulo":"Alterar capítulo";$("chapterTitleInput").value=i===null?"":state.chapters[i].title;$("chapterModal").classList.add("open");}
+function saveChapter(){const title=$("chapterTitleInput").value.trim();if(!title)return alert("Digite o nome do capítulo.");if(editingChapterIndex===null){state.chapters.push({title,items:[]});selectedChapter=state.chapters.length-1;}else state.chapters[editingChapterIndex].title=title;closeModals();render();toast("Capítulo salvo.");}
+function deleteChapter(i){if(!confirm("Excluir este capítulo e todos os artigos?"))return;state.chapters.splice(i,1);selectedChapter=Math.max(0,i-1);render();toast("Capítulo excluído.");}
+function fillSelect(sel){$("itemChapterSelect").innerHTML=state.chapters.map((ch,i)=>`<option value="${i}">${esc(ch.title)}</option>`).join("");$("itemChapterSelect").value=sel;}
+function openItemModal(type="article",ch=selectedChapter,idx=null){if(!state.chapters.length)return alert("Crie um capítulo primeiro.");itemType=type;editingItem=idx===null?null:{ch,idx};fillSelect(ch);const it=idx===null?{number:"",text:""}:state.chapters[ch].items[idx];$("itemModalTitle").textContent=idx===null?(type==="section"?"Novo subtítulo":"Novo artigo"):(type==="section"?"Editar subtítulo":"Editar artigo");$("articleNumberWrapper").style.display=type==="section"?"none":"block";$("itemNumberInput").value=it.number||"";$("itemTextInput").value=it.text||"";$("itemModal").classList.add("open");}
+function saveItem(){const ch=Number($("itemChapterSelect").value),number=$("itemNumberInput").value.trim(),text=$("itemTextInput").value.trim();if(!text)return alert("Digite o texto.");if(itemType==="article"&&!number)return alert("Digite o número do artigo.");const item=itemType==="section"?{type:"section",text}:{type:"article",number,text};if(editingItem){state.chapters[editingItem.ch].items.splice(editingItem.idx,1);state.chapters[ch].items.push(item);}else state.chapters[ch].items.push(item);selectedChapter=ch;closeModals();render();toast("Item salvo.");}
+function deleteItem(ch,idx){if(!confirm("Excluir este item?"))return;state.chapters[ch].items.splice(idx,1);render();toast("Item excluído.");}
+function downloadJSON(){const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="regimento.json";a.click();toast("regimento.json exportado.");}
+function importJSON(ev){const file=ev.target.files[0];if(!file)return;const r=new FileReader();r.onload=e=>{try{const obj=JSON.parse(e.target.result);if(!Array.isArray(obj.chapters))throw new Error();state=obj;selectedChapter=0;saveLocal();render();toast("JSON importado.");}catch{alert("Arquivo inválido.");}};r.readAsText(file);}
+function clearLocal(){if(confirm("Apagar alterações locais e recarregar do regimento.json?")){localStorage.removeItem(STORAGE_KEY);location.reload();}}
+document.addEventListener("DOMContentLoaded",async()=>{await loadData();render();});
